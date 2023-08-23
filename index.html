@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Mi Web Isacc Mestra</title>
+	<link rel="stylesheet" href="styles.css">
+	<script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
+	
+</head>
+<body>
+	<script src="jquery-3.7.0.min.js"></script>
+	<script>
+		 $(document).ready(function() {
+        // Agregar un evento de clic al elemento de logotipo
+        $("#logo").click(function() {
+            window.location.href = "file:///C:/Users/Isaac%20Mestra/Documents/My%20Web%20Pelis/index.html"; // Ajusta la URL según sea necesario
+        });
+    });
+	</script>
+
+	<header class="header">
+		<div class="container">
+		<div class="btn-menu">
+			<label for="btn-menu">☰</label>
+		</div>
+			<div class="logo" id="logo">
+				<h1>Films TV</h1>
+			</div>
+			<nav class="menu">
+				<a href="#">Peliculas</a>
+				<a href="#">Series</a>
+				<div class="dropdown">
+				    <a href="#">Géneros</a>
+					    <div class="dropdown-content">	
+						    <a href="#">Destacado</a>
+						    <a href="#">Acción</a>
+						    <a href="#">Comedia</a>
+							<a href="#">Suspenso</a>
+							<a href="#">Aventura</a>
+							<a href="#">Drama</a>
+							<a href="#">Crimen</a>
+							<a href="#">Romance</a>
+							<a href="#">Terror</a>
+							<a href="#">Ciencia Ficción</a>
+					    </div>
+				</div>
+			</nav>
+		</div>
+	</header>
+	<div class="capa"></div>
+	<input type="checkbox" id="btn-menu">
+<div class="container-menu">
+	<div class="cont-menu">
+		<nav>
+			<a href="#">Categorias</a>			
+			<a href="#">Mas</a>		
+		</nav>
+		<label for="btn-menu">✖️</label>
+	</div>
+</div>
+
+	<div class="conta">
+		<input type="text" placeholder="Buscar...">
+		<button>
+			<i class="fa-solid fa-magnifying-glass"></i>
+		</button>
+	</div>
+
+<div class="conteiner">
+        <a href="https://drive.google.com/file/d/1yhEbMu32KT3L8BIGR-WE9uetXABut_6y/view?usp=sharing" >
+			    <img class= "alinear" src="Imagenes/john wick.webp" alt="">	   	    		
+	    </a>
+     <img class= "alinear" src="Imagenes/melagodon.webp" alt="">
+     <img class= "alinear" src="Imagenes/indiana jones.webp" alt="">
+	 <img class= "alinear" src="Imagenes/mision imposible.webp" alt="">
+	 <img class= "alinear" src="Imagenes/Fantasma.webp" alt="">
+	 <img class= "alinear" src="Imagenes/oppenheimer.webp" alt="">
+	 <img class= "alinear" src="Imagenes/flash.webp" alt="">
+
+</div>
+
+</body>
+</html>
